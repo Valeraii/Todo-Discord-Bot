@@ -2,7 +2,6 @@ const { SlashCommandBuilder} = require('discord.js');
 const TodoList = require('../../models/todoList');
 const TodoItem = require('../../models/todoItem');
 
-
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('addtask')
